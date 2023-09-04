@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-TP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Courgette&family=Lumanosimo&family=Nunito:wght@600&family=Pacifico&family=Parisienne&family=Quicksand:wght@500&family=Raleway:wght@100;200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tektur:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgba(106, 108, 105, 0.668);
+        }
+        .heading{
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        .signup-box{
+            box-shadow: 10px 10px 10px 10px rgb(104, 105, 104);
+            padding: 60px;
+        }
+        @media (max-width:800px){
+            .signup-box{
+                padding:20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+            <div class="signup-box border border-3 border-secondary rounded position-absolute top-50 start-50 translate-middle bg-light text-dark ">
+                <form>
+                    <h4 class="heading text-center">Sign up to Travel Pacifico</h4>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First name">
+                      <label for="exampleInputEmail1" class="form-label">Second name</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Second name">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      <label for="exampleInputEmail1" class="form-label">Phone number</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your phone number">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="Reset" class="btn btn-outline-success">Reset</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

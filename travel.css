@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0px;
+    /* overflow-x: hidden; */
+}
+.navbar-brand{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.navbar{
+    box-shadow: 0px 0px 10px 0px rgb(67, 68, 67);
+}
+.quote{
+    font-family: 'Cinzel Decorative', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.subquote{
+    font-size: 15px;
+}
+.card1{
+    position: relative;
+}
+.blur-effect{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.325);
+}
+@media (max-width:800px){
+    .subquote{
+        display:none;
+    }
+    .quote{
+        font-size: 20px;
+    }
+}
+.home-container{
+    box-shadow: 10px 10px 10px 10px rgb(69, 70, 69);
+}
+.reg-head{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.review-card:hover{
+    box-shadow: 5px 5px 5px 0px rgb(70, 69, 69);
+    transition: 300ms;
+}
+.review_head{
+    font-family: 'Clicker Script', cursive;
+    font-size: 100px;
+    font-weight: 800;
+}
+@media (max-width:1200px){
+    #baseimg1{
+        visibility: hidden;
+    }
+}
+.reg-img{
+    border-radius: 30px;
+}
+.footer-container{
+    background-color: rgb(2, 2, 2);
+}
+.mediaicons {
+    font-size: 12px;
+}
+.mediaicons:hover{
+    font-size: 17px;
+    transition: 500ms;
+}
+.register{
+    margin-bottom: 60px;
+}
+@media (max-width:800px){
+
+    .review_head{
+        font-size: 50px;
+    }
+    .imgtest{
+        visibility: hidden;
+    }    
+}
+.card-title1{
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: 2px 2px black;
+}
+.card-img-overlay:hover{
+    background-color: rgba(0, 0, 0, 0.452);
+    transition: 500ms;
+}
+.card-text3{
+    text-shadow: 2px 2px black;
+}
