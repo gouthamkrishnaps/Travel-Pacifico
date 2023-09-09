@@ -36,6 +36,13 @@
 .home-container{
     box-shadow: 10px 10px 10px 10px rgb(69, 70, 69);
 }
+.packageimg{
+    overflow: hidden;
+}
+.packageimg:hover img{
+    transform: scale(1.4);
+    transition: 500ms;
+}
 .reg-head{
     font-family: 'Cinzel Decorative', cursive;
 }
