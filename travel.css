@@ -34,7 +34,7 @@
     }
 }
 .home-container{
-    box-shadow: 10px 10px 10px 10px rgb(69, 70, 69);
+    box-shadow: 10px 10px 10px 0px rgb(69, 70, 69);
 }
 .packageimg{
     overflow: hidden;
@@ -47,7 +47,7 @@
     font-family: 'Cinzel Decorative', cursive;
 }
 .review-card:hover{
-    box-shadow: 5px 5px 5px 0px rgb(70, 69, 69);
+    box-shadow: 10px 10px 10px 0px rgb(70, 69, 69);
     transition: 300ms;
 }
 .review_head{
