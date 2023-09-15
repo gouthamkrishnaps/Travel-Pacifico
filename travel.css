@@ -25,15 +25,9 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.325);
 }
-/* @media (max-width:800px){
-
-} */
 @media (max-width:1000px){
     .subquote{
         display:none;
-    }
-    .home-button1{
-        display: none;
     }
     .quote{
         font-size: 20px;
