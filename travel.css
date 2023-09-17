@@ -43,8 +43,16 @@
     transform: scale(1.4);
     transition: 500ms;
 }
+.register{
+    background-image: url(images/registerbg.png);
+    margin-bottom: 15px;
+}
 .reg-head{
     font-family: 'Cinzel Decorative', cursive;
+}
+.register-container:hover{
+    backdrop-filter: blur(4px);
+    transition: 500ms;
 }
 .review-card:hover{
     box-shadow: 10px 10px 10px 0px rgb(70, 69, 69);
@@ -74,9 +82,6 @@
 .mediaicons:hover{
     font-size: 17px;
     transition: 500ms;
-}
-.register{
-    margin-bottom: 60px;
 }
 @media (max-width:800px){
 
