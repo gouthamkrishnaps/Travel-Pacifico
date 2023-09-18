@@ -70,14 +70,12 @@
 .reg-img{
     border-radius: 30px;
 }
-/* .footer-container{
-    background-color: rgb(21, 110, 31);
-} */
 .mediaicons {
     font-size: 12px;
+    opacity: .6;
 }
 .mediaicons:hover{
-    font-size: 17px;
+    opacity: 1;
     transition: 500ms;
 }
 @media (max-width:800px){
